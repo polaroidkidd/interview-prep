@@ -335,13 +335,13 @@ async function buildDocumentHtml(files) {
             margin: 0 0 10px;
             padding: 12px 14px;
             border-radius: 8px;
-            background: #0b1220;
-            color: #e5e7eb;
+            background: #f8f8f8;
+            color: #1f2937;
             white-space: pre-wrap;
             overflow-wrap: anywhere;
             font-size: 9pt;
             line-height: 1.45;
-            border: 1px solid #1f2937;
+            border: 1px solid #d1d5db;
           }
 
           code {
@@ -353,7 +353,7 @@ async function buildDocumentHtml(files) {
           .hljs-literal,
           .hljs-section,
           .hljs-link {
-            color: #c792ea;
+            color: #7928a1;
           }
 
           .hljs-string,
@@ -366,14 +366,14 @@ async function buildDocumentHtml(files) {
           .hljs-addition,
           .hljs-template-tag,
           .hljs-template-variable {
-            color: #ecc48d;
+            color: #956d00;
           }
 
           .hljs-comment,
           .hljs-quote,
           .hljs-deletion,
           .hljs-meta {
-            color: #7c8599;
+            color: #6a737d;
           }
 
           .hljs-number,
@@ -383,16 +383,16 @@ async function buildDocumentHtml(files) {
           .hljs-tag .hljs-attr,
           .hljs-variable-language,
           .hljs-built_in {
-            color: #f78c6c;
+            color: #d73a49;
           }
 
           .hljs-function .hljs-title,
           .hljs-title.function_ {
-            color: #82aaff;
+            color: #005cc5;
           }
 
           .hljs-params {
-            color: #d6deeb;
+            color: #24292e;
           }
 
           :not(pre) > code {
